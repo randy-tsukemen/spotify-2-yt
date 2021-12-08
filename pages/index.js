@@ -1,12 +1,12 @@
 import Head from "next/head";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>SpotiApp</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className="">
+      <main>
+        <Sidebar />
+      </main>
       <h1>Hello</h1>
     </div>
   );
